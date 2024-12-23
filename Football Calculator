@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {  
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("Enter The Two Numbers to be added");
+        
+        Double FirstNumber = input.nextDouble();
+        
+        Double SecondNumber = input.nextDouble();
+    
+        Double Sum = (FirstNumber + SecondNumber); 
+        
+        System.out.println("The Sum of " + FirstNumber + " and " + SecondNumber + " Is equal to " + Sum);
+        
+        
+        
+     
+    }
+}
